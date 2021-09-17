@@ -1,0 +1,24 @@
+#titulo{ background: #92A097 ; }
+.Titulo_Principal{color: #E1E1E1   ; font-family: arial; text-decoration: underline;}
+.Subtitulo1{color: #E59866; font-family: arial; background-color:#808B96; text-decoration: underline; text-align: center;}
+.Ingredientes{background-color: #808B96;}
+.Subtitulo2{color: #E59866; font-family: arial; background-color:#808B96;  text-decoration: underline; text-align: center;}
+.Preparación{background-color:#808B96;}
+.parrafo{font-size: 130%;}
+ul {font-size: 130%;}
+ol {font-size: 130%;}
+.parrafo{text-align: center; background-color: #CB6261}
+.Titulo_Principal{background-color: #28B463;}
+.imagen{width: 300px; height: 200px;}
+aside {background-color: #808B96; width: 25%; float: left; height:300px; overflow: auto; border: 3px solid green; border-radius: 15%;}
+section {background-color: #808B96; float: left; height: 316px; width: 20%; overflow: auto; margin: 1%; border: 3px solid green; border-radius: 15%;}
+.nav{text-decoration: underline;}
+.enlaces{font-size: 150%;}
+.wpp{position: fixed; height: 70px; width: 70px; top: 85%; right: 1%;}
+.mapa{clear: both;}
+.ig{width: 70px; height: 70px;}
+.fb{width: 70px; height: 70px;}
+footer{position: relative; right: 35%; top: 400px;}
+.texto{font-size: 160%;}
+.mapa{position: relative; bottom: 360px; left: 50%; }
+.texto2{position: fixed; top: 77%; right: 2.5%;}
