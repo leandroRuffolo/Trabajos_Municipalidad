@@ -18,7 +18,39 @@ section {background-color: #808B96; float: left; height: 316px; width: 20%; over
 .mapa{clear: both;}
 .ig{width: 70px; height: 70px;}
 .fb{width: 70px; height: 70px;}
-footer{position: relative; right: 35%; top: 400px;}
+footer{position: relative; right: 47%; top: 400px;}
 .texto{font-size: 160%;}
 .mapa{position: relative; bottom: 360px; left: 50%; }
 .texto2{position: fixed; top: 77%; right: 2.5%;}
+
+.wpp:hover{
+  width: 70px;
+  height: 60px;
+}
+.ig:hover{
+  width: 70px;
+  height: 60px;
+}
+.fb:hover{
+  width: 70px;
+  height: 60px;
+}
+
+.contacto:hover{
+  width: 70px;
+  height: 60px;
+}
+
+.enlaces:hover{
+ background-color: powderblue;
+}
+.Contactanos{
+  width: 200px;
+  height: 80px;
+top: 500px;
+position: relative;
+}
+.Contactanos:hover{
+  width: 180px;
+  height: 100px;
+}
