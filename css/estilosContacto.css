@@ -9,7 +9,10 @@ header { font-size: 2rem;
 left: 20%;
 top: 230px;
 width: 29%;
+display: flex;
+ justify-content: space-around;
 }
+
 input{
   width: 8.6vw;
   height: 2.5vh;
@@ -17,7 +20,7 @@ input{
 
 .C {
 position: relative;
-left: 20%;
+left: 20.28%;
 top: 250px;
 }
 button{
