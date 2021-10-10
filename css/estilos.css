@@ -16,11 +16,11 @@ section {position: relative;background-color: #808B96; height: 30vh; width: 30vw
 }
 .enlaces{font-size: 150%;}
 .wpp{position: fixed; height: 70px; width: 70px; top: 85%; right: 1%;}
-.ig{width: 70px; height: 70px;}
-.fb{width: 70px; height: 70px; left: 50%;position: relative;}
-footer{position: relative; right: 3px; top: 550px; background: burlywood; width: 15vw;}
-.texto{font-size: 160%;}
-.mapa{position: relative; bottom: 200px; left: 30%; width: 45%; height: 0; padding-bottom: 56.25%;}
+.ig{width: 4vw; height: 8vh; position: relative; left: 20%;}
+.fb{width: 4vw; height: 8vh; left: 40%;position: relative;}
+footer{position: relative; right: 3px; top: 550px; background: burlywood; width: 30vw; height: 20vh;}
+.texto{font-size: 1.7rem;}
+.mapa{position: relative; bottom: 150px; left: 25%; width: 40%; height: 100vh; }
 .mapa iframe{
   position: absolute; width: 100%; height: 34%;
 }
@@ -135,4 +135,9 @@ flex-grow: 0.1;
 .contactos:hover{
   width: 180px;
   height: 100px;
+}
+@media (max-width: 576px){
+footer{
+  font-size: 1rem;
+ }
 }
