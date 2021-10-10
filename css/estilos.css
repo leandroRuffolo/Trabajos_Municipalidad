@@ -141,3 +141,18 @@ footer{
   font-size: 1rem;
  }
 }
+.contactos{
+position: relative;
+top: 750px;
+left: 40%;
+width: 15vw;
+height: 10vh;
+}
+
+@media(max-width: 576px){
+.contactos{
+  width: 30vw;
+  height: 15vh;
+}
+
+}
