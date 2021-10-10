@@ -17,8 +17,8 @@ section {position: relative;background-color: #808B96; height: 30vh; width: 30vw
 .enlaces{font-size: 150%;}
 .wpp{position: fixed; height: 70px; width: 70px; top: 85%; right: 1%;}
 .ig{width: 70px; height: 70px;}
-.fb{width: 70px; height: 70px;}
-footer{position: relative; right: 3px; top: 550px; flex-wrap: wrap;}
+.fb{width: 70px; height: 70px; left: 50%;position: relative;}
+footer{position: relative; right: 3px; top: 550px; background: burlywood; width: 15vw;}
 .texto{font-size: 160%;}
 .mapa{position: relative; bottom: 130px; left: 30%; width: 45%; height: 0; padding-bottom: 56.25%;}
 .mapa iframe{
@@ -42,25 +42,17 @@ footer{position: relative; right: 3px; top: 550px; flex-wrap: wrap;}
   height: 60px;
 }
 
-.Contacto:hover{
-  width: 70px;
-  height: 60px;
-}
-
 .enlaces:hover{
  background-color: powderblue;
 }
-.contactanos{
+.contactos{
   width: 15vw;
   height: 10vh;
 top: 600px;
 left: 40%;
 position: relative;
 }
-.contactanos:hover{
-  width: 180px;
-  height: 100px;
-}
+
 
 .imagen{
   width: 20vw;
@@ -115,9 +107,10 @@ format('truetype');
 
  .section-aside{
    background-color: burlywood;
-   width: 100vw;
+   width: 90vw;
    height: 40vh;
    padding: 1%;
+   display: flex;
 
  }
  .section-aside section{
@@ -127,14 +120,18 @@ left: 5%;
 }
 .section-aside aside{
 border: 3px solid #68829C ; border-radius: 10%;
-left: 50%;
-bottom: 350px;
+left: 20%;
+bottom: -15.0px;
 padding: 1%;
-
+flex-grow: 0.1;
 }
 @media (max-width: 576px){
   .mapa{
    width: 60%; height: 500px;
    left: 20%;
   }
+}
+.contactos:hover{
+  width: 180px;
+  height: 100px;
 }
