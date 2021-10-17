@@ -72,3 +72,9 @@ select{
 header{
 font-family: 'Akronim', cursive;
 }
+
+@media (max-width: 576px){
+  .ImagenContacto{
+display: none;
+  }
+}
