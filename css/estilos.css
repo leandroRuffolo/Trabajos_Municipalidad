@@ -14,11 +14,11 @@ ol {font-size: 130%;}
 section {position: relative;background-color: #808B96; height: 30vh; width: 30vw; overflow: auto;}
 .nav{text-decoration: underline;flex-wrap: wrap;
 }
-.enlaces{font-size: 150%;}
+.enlaces{font-size: 150%; width: 30%;}
 .wpp{position: fixed; height: 70px; width: 70px; top: 85%; right: 1%;}
 .ig{width: 4vw; height: 8vh; position: relative; left: 20%;}
 .fb{width: 4vw; height: 8vh; left: 40%;position: relative;}
-footer{position: relative; right: 3px; top: 550px; background: burlywood; width: 30vw; height: 20vh;}
+footer{position: relative; right: 3px; top: 550px; background: burlywood; width: 30vw; height: 25vh;}
 .texto{font-size: 1.7rem;}
 .mapa{position: relative; bottom: 150px; left: 25%; width: 40%; height: 100vh; }
 .mapa iframe{
@@ -155,4 +155,12 @@ height: 10vh;
   height: 15vh;
 }
 
+}
+#información{
+  position: relative;
+  top: 20%;
+}
+#inclusivo-1{
+  position: relative;
+  left: 47%;
 }

@@ -8,6 +8,11 @@
     <meta name="description" content="Receta Tipica Italiana">
     <meta name="keywords" content="Recetas, Pizza, Comida Italiana">
     <meta name="author" content="Leandro Nahuel Ruffolo">
+    <script>
+      alert("¿Esta dispuesto a ver el mejor sitio del mundo mundial?")
+    </script>
+    <script src="js/javaScript.js">
+    </script>
   </head>
   <body id="titulo">
     <div class="texto2">
@@ -25,7 +30,8 @@
     <br>
     <br>
     <br>
-    <p class="parrafo">Buenas, aqui le enseñaremos a como hacer una pizza clasica italiana, a continuación les mostraremos un video con sus pasos, disfruten!</p>
+    <p class="parrafo" id="parrafo-5">Buenas, aqui le enseñaremos a como hacer una pizza clasica italiana, a continuación les mostraremos un video con sus pasos, disfruten!</p>
+      <button onclick="inclusivo()" id="inclusivo-1">Pagina inclusivo</button>
     </header>
 <br>
 <br>
@@ -38,22 +44,22 @@
     <img class= "Pizza" src="imagenes/Pizza.jpg" alt="Pizza">
   </div>
 </center>
-<nav>
+<nav id="nav-2">
   <h2 class="nav-1">Si estas interesado en otras recetas de cocina les dejaremos algunas paginas recomendadas:</h2>
-  <div class="enlaces">
-    <a href="https://www.cucinare.tv/receta/milanesas-con-tres-toppings-diferentes/" target="_blank">milanesas-con-tres-toppings-diferentes</a><br>
-    <a href="https://www.cucinare.tv/receta/pastel-de-papas-3/" target="_blank">Pastel De Papa</a><br>
-    <a href="https://www.cucinare.tv/receta/sandwich-de-pollo-2/" target="_blank">sandwich-de-pollo</a><br>
-    <a href="https://www.cucinare.tv/receta/vitel-tone-3/" target="_blank">Vitel-tone</a><br>
+  <div class="enlaces" id="enlaces-1">
+    <a id="enlace-milanesa"href="https://www.cucinare.tv/receta/milanesas-con-tres-toppings-diferentes/" target="_blank">milanesas-con-tres-toppings-diferentes</a><br>
+    <a  id="pastel"href="https://www.cucinare.tv/receta/pastel-de-papas-3/" target="_blank">Pastel De Papa</a><br>
+    <a id="sandwich"href="https://www.cucinare.tv/receta/sandwich-de-pollo-2/" target="_blank">sandwich-de-pollo</a><br>
+    <a id="vitel"href="https://www.cucinare.tv/receta/vitel-tone-3/" target="_blank">Vitel-tone</a><br>
   </div>
   </nav>
 <br>
 <br>
 <br>
 <div class="section-aside">
-<section>
-<h2 class="Subtitulo1">Ingredientes</h2>
+<section id="section-1">
 <ul class="Ingredientes">
+  <h2 class="Subtitulo1">Ingredientes</h2>
   <li>500g Harina tipo 00</li>
   <li>350 cL de agua</li>
   <li>10g de levadura (una cucharada)</li>
@@ -63,9 +69,10 @@
 </section>
 <br>
 <br>
-<aside class="Apartado">
-<h2 class="Subtitulo2">Preparación</h2>
+<aside class="Apartado" id="aside-5">
+
 <ol class="Preparación">
+  <h2 class="Subtitulo2">Preparación</h2>
  <li>Colocar medio kilo de harina</li>
  <li>Colocar Levadura y revolver un poco</li>
  <li>Colocar La mitad de agua y revolver</li>
@@ -89,15 +96,18 @@
 </div>
 <a  class="enlazado"href="contacto.html" target="_blank">contactos<img class="contactos"src="imagenes/Contactanos.jpg" alt=""></a>
 
-<footer>
+<footer id="footer-1">
   <h3 class="texto">Siganos en nuestras redes para mas recetas nuestras:</h3>
     <a class="IG"href="https://www.instagram.com/?hl=es" target="_blank"><img class="ig" src="imagenes/IG.jpg" alt=""></a>
     <a class="FB" href="https://es-la.facebook.com/" target="_blank"><img class="fb" src="imagenes/facebook.jpg" alt=""></a>
+    <button onclick="InfoAutor()"id="información">Datos Del Creador De La Página</button>
 </footer>
   <div class="mapa">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8580275.743631795!2d9.857371188857538!3d43.635906456462656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d4fe82448dd203%3A0xe22cf55c24635e6f!2sItalia!5e1!3m2!1ses-419!2sar!4v1630476767605!5m2!1ses-419!2sar" width="600"  height="400"style="border:0;" allowfullscreen="" loading="lazy">
 </div>
 
 </main>
+
+
 </body>
 </html>
